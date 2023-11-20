@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #1f2125;
+    color: white;
+    font-family: sans-serif;
+}
+
+#root {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card-wrap {
+    width: calc(100% - 5vw);
+    max-width: calc(400px + 10vw);
+    margin: 2.5vw auto 0 auto;
+    padding: 2em 0;
+
+    border-radius: 3px;
+}
+
+.card {
+    width: 70%;
+    min-width: 300px;
+    margin: auto;
+
+    background: #181a1e;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.card-pad {
+    padding: 0 calc(2em + 1vw);
+}
+
+.pic {
+    width: 100%;
+}
+
+.header {
+    margin-top: 0.5em;
+}
+
+.header * {
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.position {
+    font-size: 0.9em;
+    margin-top: -5px;
+    color: rgb(255, 235, 235);
+}
+
+.website {
+    margin-top: 0.5em;
+    font-size: 0.85em;
+}
+
+.email-wrap {
+    margin-top: 1em;
+    border-radius: 6px;
+    padding: 0.5em 0;
+    
+    font-size: large;
+    background: #fdffff;
+}
+
+.email, .email * {
+    color: black;
+}
+
+.bio {
+    padding-top: 1.5em;
+}
+
+.bio-h {
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.bio-p {
+    margin-top: 0.3em;
+}
+
+.icon-wrap {
+    display: flex;
+    column-gap: 0.8em;
+    justify-content: center;
+    width: 100%;
+
+    margin-top: 1em;
+    padding: 0.5em 0;
+
+    background: #141416;
+    color: #999;
+    font-size: 2.3em;
+}
