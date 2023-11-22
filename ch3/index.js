@@ -1,1 +1,0 @@
-ReactDOM.render(<p>Hi!!11!!1!</p>, document.getElementById("root"));
