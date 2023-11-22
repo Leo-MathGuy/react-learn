@@ -6,7 +6,7 @@ import jokes from "./jokes.json";
 
 export default function App() {
     const jokeEls = jokes.map(joke => {
-        return <Joke setup={joke.setup} punch={joke.punch} /> 
+        return <Joke {...joke} /> 
     })
     return (
         <div class="bg-zinc-800 min-h-screen" onClick={() => { document.getElementById('laugh').play() }}>
