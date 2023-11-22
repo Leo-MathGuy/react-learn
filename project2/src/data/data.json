@@ -1,0 +1,34 @@
+[
+  {
+    "country": "France",
+    "location": "Eiffel Tower",
+    "date_start": "2023-03-10",
+    "date_end": "2023-03-15",
+    "description": "The Eiffel Tower is a world-famous iron lattice monument located in Paris, France. Constructed in 1889, it stands as an iconic symbol of both Paris and France.",
+    "img":"eiffel.jpeg"
+  },
+  {
+    "country": "India",
+    "location": "Taj Mahal",
+    "date_start": "2023-06-20",
+    "date_end": "2023-06-25",
+    "description": "The Taj Mahal is an architectural marvel situated in Agra, India. Built in the 17th century by Emperor Shah Jahan, it is a white marble mausoleum and a UNESCO World Heritage Site.",
+    "img":"tajmahal.jpeg"
+  },
+  {
+    "country": "China",
+    "location": "Great Wall of China",
+    "date_start": "2023-08-12",
+    "date_end": "2023-08-20",
+    "description": "Machu Picchu is an ancient Incan city nestled in the Andes mountains of Peru. Recognized as a UNESCO World Heritage Site, it offers stunning views of the surrounding landscape.",
+    "img":"wallofchina.jpeg"
+  },
+  {
+    "country": "Egypt",
+    "location": "Pyramids of Giza",
+    "date_start": "2023-10-05",
+    "date_end": "2023-10-12",
+    "description": "The Great Wall of China is a historic fortification stretching across northern China. Built to protect against invasions, it spans thousands of miles and is a testament to ancient engineering.",
+    "img":"giza.jpeg"
+  }
+]
