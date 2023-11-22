@@ -22,8 +22,7 @@ export default function App() {
                     punch="A careless committer!"
                 />
                 <Joke
-                    setup="Why was the JavaScript developer sad?"
-                    punch="Because he didn't 'null' his emotions."
+                    punch="A JavaScript developer was sad because he didn't 'null' his emotions."
                 />
                 <Joke
                     setup="How do you comfort a JavaScript bug?"
